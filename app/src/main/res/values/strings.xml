@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name" translatable="false">Story App</string>
+
+    <string name="user_name" translatable="false">Riofuad</string>
+    <string name="description" translatable="false">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</string>
+    <string name="location" translatable="false">Location</string>
+    <string name="description_hint">Write description here</string>
+    <string name="name_hint">Name</string>
+    <string name="email_hint" translatable="false">Email</string>
+    <string name="password_hint" translatable="false">Password</string>
+    <string name="location_hint">Please select the location area first</string>
+
+    <string name="auth_welcome">Welcome to</string>
+    <string name="auth_question_login">Don\'t have an account?</string>
+    <string name="auth_question_register">Already have an account?</string>
+    <string name="text_login">Login</string>
+    <string name="text_register">Register</string>
+    <string name="text_action" translatable="false">Action</string>
+    <string name="text_adapter_maps_default">Default View (Country)</string>
+    <string name="text_adapter_maps_province">Around My Province</string>
+    <string name="text_adapter_maps_city">Around My City</string>
+    <string name="text_adapter_maps_district">Around My District</string>
+    <string name="text_adapter_maps_around">Around My Location</string>
+    <string name="text_try_again">Try Again</string>
+    <string name="text_select_location">Select Location</string>
+    <string name="text_select_location_label">Select / press area to select location</string>
+    <string name="text_confirm_location">(Click to select the location)</string>
+
+    <string name="btn_sign_in">Sign in</string>
+    <string name="btn_sign_up">Sign up</string>
+    <string name="button_upload">Upload</string>
+    <string name="btn_continue">Continue</string>
+    <string name="btn_cancel">Cancel</string>
+
+    <string name="validation_invalid_email">Email format is invalid!</string>
+    <string name="validation_invalid_password">Password must contain at least 8 characters!</string>
+    <string name="validation_empty_email_password">Email and Password must be filled</string>
+    <string name="validation_empty_story_description">The description field is required</string>
+
+    <string name="error_login">Login failed</string>
+    <string name="error_load_story">Failed to load story</string>
+    <string name="error_email_invalid">Invalid Email format</string>
+    <string name="error_unauthorized">Email address is not registered / Wrong Email or Password</string>
+    <string name="error_fetch_data">Error while fetching data</string>
+    <string name="error_camera_permission">Camera permission not allowed</string>
+    <string name="error_take_photo">Failed to take a picture</string>
+    <string name="error_launch_camera">Failed to launch camera</string>
+    <string name="error_header_token">You\'re Unauthorized, please re-login for renewal Token</string>
+    <string name="error_large_payload">Your image exceeds the maximum limit of 1 MB file, please change the image</string>
+    <string name="error_send_payload">Error while send image</string>
+    <string name="error_location_access">Give the app access to read your location</string>
+
+    <string name="successful_upload_story">The story has been uploaded successfully</string>
+    <string name="successful_register_user">Registration is successful, please login using the registered email and password</string>
+
+    <string name="splash_credit" translatable="false">\@ 2023 Riofuad</string>
+
+    <string name="content_description_splash_dicoding" translatable="false">Dicoding story aplication</string>
+    <string name="content_description_image">User Story Image</string>
+    <string name="content_description_action_button">Action Menu</string>
+    <string name="content_description_change_language">Change Language</string>
+    <string name="content_description_map">See Map</string>
+    <string name="content_description_add_story">Add Story</string>
+    <string name="content_description_log_out">Log out</string>
+    <string name="content_description_back_to_home">Back to home page</string>
+    <string name="content_description_upload_from_gallery">Upload from gallery</string>
+    <string name="content_description_take_photo">Take photo</string>
+    <string name="content_description_switch_camera">Switch camera</string>
+    <string name="content_description_clear_location">Clear Location</string>
+    <string name="content_description_select_location">Select Location</string>
+</resources>

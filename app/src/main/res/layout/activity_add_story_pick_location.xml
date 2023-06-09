@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/ic_map"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:contentDescription="@string/content_description_select_location"
+            android:src="@drawable/ic_baseline_map"
+            map:layout_constraintStart_toStartOf="parent"
+            map:layout_constraintTop_toTopOf="parent"
+            map:tint="#03A9F4" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="@string/text_select_location_label"
+            android:textColor="#03A9F4"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            map:layout_constraintBottom_toBottomOf="@+id/ic_map"
+            map:layout_constraintStart_toEndOf="@+id/ic_map"
+            map:layout_constraintTop_toTopOf="@+id/ic_map" />
+
+        <TextView
+            android:id="@+id/address_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/story_container"
+            android:hint="@string/location_hint"
+            android:lines="2"
+            android:minLines="2"
+            android:padding="12dp"
+            android:textSize="11sp"
+            map:layout_constraintTop_toBottomOf="@+id/ic_map"
+            tools:layout_editor_absoluteX="16dp" />
+
+        <Button
+            android:id="@+id/btn_select_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/button_auth"
+            android:backgroundTint="#03A9F4"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:minHeight="0dp"
+            android:padding="8dp"
+            android:text="@string/btn_continue"
+            android:textAllCaps="false"
+            android:textSize="12sp"
+            app:backgroundTint="@null"
+            map:layout_constraintEnd_toEndOf="parent"
+            map:layout_constraintTop_toBottomOf="@+id/address_bar" />
+
+        <TextView
+            android:id="@+id/btn_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:text="@string/btn_cancel"
+            android:textColor="#DF3745"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/btn_select_location"
+            app:layout_constraintEnd_toStartOf="@+id/btn_select_location"
+            app:layout_constraintTop_toTopOf="@+id/btn_select_location" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        tools:context=".ui.activities.AddStoryPickLocationActivity" />
+</LinearLayout>

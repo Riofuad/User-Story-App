@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="description_hint">Tulis deskripsi di sini</string>
+    <string name="name_hint">Nama</string>
+    <string name="location_hint">Pilih lokasi pada area terlebih dahulu</string>
+
+    <string name="auth_welcome">Selamat Datang di</string>
+    <string name="auth_question_login">Belum punya akun?</string>
+    <string name="auth_question_register">Sudah memiliki akun?</string>
+    <string name="text_login">Masuk</string>
+    <string name="text_register">Daftar</string>
+    <string name="text_adapter_maps_default">Tampilan Default (Negara)</string>
+    <string name="text_adapter_maps_province">Sekitar Provinsi Saya</string>
+    <string name="text_adapter_maps_city">Sekitar Kota Saya</string>
+    <string name="text_adapter_maps_district">Sekitar Kecamatan Saya</string>
+    <string name="text_adapter_maps_around">Sekitar Lokasi Saya</string>
+    <string name="text_try_again">Coba Lagi</string>
+    <string name="text_select_location">Pilih Lokasi</string>
+    <string name="text_select_location_label">Pilih / Tekan pada area untuk memilih lokasi</string>
+    <string name="text_confirm_location">(Klik untuk memilih lokasi)</string>
+
+    <string name="btn_sign_in">Masuk</string>
+    <string name="btn_sign_up">Daftar</string>
+    <string name="button_upload">Unggah</string>
+    <string name="btn_continue">Lanjukan</string>
+    <string name="btn_cancel">Batalkan</string>
+
+    <string name="validation_invalid_email">Format email tidak valid!</string>
+    <string name="validation_invalid_password">Password harus mengandung setidaknya 8 karakter!</string>
+    <string name="validation_empty_email_password">Email dan Password wajib diisi</string>
+    <string name="validation_empty_story_description">Kolom deskripsi harus diisi</string>
+
+    <string name="error_login">Gagal masuk</string>
+    <string name="error_load_story">Gagal memuat cerita</string>
+    <string name="error_email_invalid">Format Email salah</string>
+    <string name="error_unauthorized">Alamat Email tidak terdaftar / Email atau Password Salah</string>
+    <string name="error_fetch_data">Terjadi kesalahan saat mengambil data</string>
+    <string name="error_camera_permission">Izin kamera tidak diizinkan</string>
+    <string name="error_take_photo">Gagal mengambil gambar</string>
+    <string name="error_launch_camera">Gagal meluncurkan kamera</string>
+    <string name="error_header_token">Anda Tidak Sah, harap login ulang untuk perpanjangan Token</string>
+    <string name="error_large_payload">Gambar Anda melebihi batas maksimum file 1 MB, harap ubah gambar</string>
+    <string name="error_send_payload">Kesalahan saat mengirim gambar</string>
+    <string name="error_location_access">Berikan aplikasi izin untuk membaca lokasi mu</string>
+
+    <string name="successful_upload_story">Cerita telah berhasil diunggah</string>
+    <string name="successful_register_user">Pendaftaran berhasil, silahkan login menggunakan email dan password yang terdaftar</string>
+
+    <string name="content_description_image">Gambar cerita pengguna</string>
+    <string name="content_description_action_button">Menu aksi</string>
+    <string name="content_description_change_language">Ganti bahasa</string>
+    <string name="content_description_map">Lihat Peta</string>
+    <string name="content_description_add_story">Tambahkan cerita</string>
+    <string name="content_description_log_out">Keluar</string>
+    <string name="content_description_back_to_home">Kembali ke halaman utama</string>
+    <string name="content_description_upload_from_gallery">Mengunggah dari galeri</string>
+    <string name="content_description_take_photo">Mengambil gambar</string>
+    <string name="content_description_switch_camera">Mengganti kamera</string>
+    <string name="content_description_clear_location">Hapus Lokasi</string>
+    <string name="content_description_select_location">Pilih Lokasi</string>
+</resources>
